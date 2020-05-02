@@ -1,0 +1,224 @@
+{
+    "created_by": "Tampermonkey",
+    "version": "1",
+    "scripts": [
+        {
+            "name": "BetterTTV",
+            "options": {
+                "compat_foreach": false,
+                "override": {
+                    "merge_connects": true,
+                    "merge_excludes": true,
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "orig_excludes": [],
+                    "merge_matches": true,
+                    "orig_noframes": null,
+                    "use_matches": [],
+                    "merge_includes": true,
+                    "use_blockers": [],
+                    "orig_run_at": "document-idle",
+                    "use_connects": [],
+                    "orig_matches": [],
+                    "orig_includes": [
+                        "*://*.twitch.tv/*"
+                    ]
+                },
+                "awareOfChrome": false,
+                "compat_wrappedjsobject": false,
+                "compat_arrayleft": false,
+                "compat_metadata": false,
+                "noframes": null,
+                "comment": null,
+                "compat_uW_gmonkey": false,
+                "compat_forvarin": false,
+                "check_for_updates": true,
+                "compatopts_for_requires": true,
+                "run_at": null
+            },
+            "storage": {
+                "data": {},
+                "ts": 1571164036211
+            },
+            "enabled": true,
+            "position": 1,
+            "file_url": "https://www.nightdev.com/betterttv/other/betterttv.user.js",
+            "uuid": "ace49216-eb01-42f8-a28e-8bf9de2e0320",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgICBCZXR0ZXJUVFYKLy8gQG5hbWVzcGFjZSAgICAgICBCVFRWCi8vIEBkZXNjcmlwdGlvbiAgICAgRW5oYW5jZXMgVHdpdGNoIHdpdGggbmV3IGZlYXR1cmVzLCBlbW90ZXMsIGFuZCBtb3JlLgovLyBAY29weXJpZ2h0ICAgICAgIE5pZ2h0RGV2LCBMTEMKLy8gQGljb24gICAgICAgICAgICBodHRwczovL2Nkbi5iZXR0ZXJ0dHYubmV0L2Fzc2V0cy9sb2dvcy9idHR2X2xvZ28ucG5nCi8vCi8vIEBncmFudCAgICAgICAgICAgbm9uZQovLwovLyBAaW5jbHVkZSAgICAgICAgICo6Ly8qLnR3aXRjaC50di8qCi8vCi8vIEB2ZXJzaW9uICAgICAgICAgMC4wLjIKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24gYmV0dGVydHR2KCkgewogICAgdmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgc2NyaXB0LnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsKICAgIHNjcmlwdC5zcmMgPSAnaHR0cHM6Ly9jZG4uYmV0dGVydHR2Lm5ldC9iZXR0ZXJ0dHYuanMnOwogICAgdmFyIGhlYWQgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnaGVhZCcpWzBdOwogICAgaWYgKCFoZWFkKSByZXR1cm47CiAgICBoZWFkLmFwcGVuZENoaWxkKHNjcmlwdCk7Cn0pKCkK"
+        },
+        {
+            "name": "Reddit /r/all as home",
+            "options": {
+                "compat_foreach": false,
+                "override": {
+                    "orig_matches": [
+                        "https://www.reddit.com/*"
+                    ],
+                    "orig_connects": [],
+                    "merge_connects": true,
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "orig_excludes": [],
+                    "merge_matches": true,
+                    "orig_noframes": null,
+                    "use_matches": [],
+                    "merge_includes": true,
+                    "use_blockers": [],
+                    "orig_run_at": "document-idle",
+                    "merge_excludes": true,
+                    "use_connects": [],
+                    "orig_includes": []
+                },
+                "awareOfChrome": false,
+                "compat_wrappedjsobject": false,
+                "compat_arrayleft": false,
+                "compat_metadata": false,
+                "noframes": null,
+                "comment": null,
+                "compat_uW_gmonkey": false,
+                "compat_forvarin": false,
+                "check_for_updates": true,
+                "compatopts_for_requires": true,
+                "run_at": null
+            },
+            "storage": {
+                "data": {},
+                "ts": 1571164036211
+            },
+            "enabled": true,
+            "position": 2,
+            "uuid": "f888868c-6be7-426f-994e-6d7bf49f8f89",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBSZWRkaXQgL3IvYWxsIGFzIGhvbWUKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBUaGUgcmVkZGl0IGljb24gcmVkaXJlY3QgdG8gL3IvYWxsIGluc3RlYWQuCi8vIEBhdXRob3IgICAgICAgU2NvdG93Ci8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0LmNvbS8qCi8vIEBpY29uICAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0c3RhdGljLmNvbS9kZXNrdG9wMngvaW1nL2Zhdmljb24vZmF2aWNvbi05Nng5Ni5wbmcKLy8gQGdyYW50ICAgICAgICBub25lCi8vID09L1VzZXJTY3JpcHQ9PQoKKGZ1bmN0aW9uKCkgewogICAgdmFyIG9sZEVsZW1lbnQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCdoZWFkZXIgYScpOwogICAgdmFyIG5ld0VsZW1lbnQgPSBvbGRFbGVtZW50LmNsb25lTm9kZSh0cnVlKTsKICAgIG5ld0VsZW1lbnQuaHJlZiA9ICcvci9hbGwnOwogICAgb2xkRWxlbWVudC5wYXJlbnROb2RlLnJlcGxhY2VDaGlsZChuZXdFbGVtZW50LCBvbGRFbGVtZW50KTsKfSkoKTs="
+        },
+        {
+            "name": "Spell check for TypeRacer",
+            "options": {
+                "compat_foreach": false,
+                "override": {
+                    "merge_connects": true,
+                    "merge_excludes": true,
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "orig_excludes": [],
+                    "merge_matches": true,
+                    "orig_noframes": null,
+                    "use_matches": [],
+                    "merge_includes": true,
+                    "use_blockers": [],
+                    "orig_run_at": "document-idle",
+                    "use_connects": [],
+                    "orig_matches": [
+                        "https://play.typeracer.com/*"
+                    ],
+                    "orig_includes": []
+                },
+                "awareOfChrome": false,
+                "compat_wrappedjsobject": false,
+                "compat_arrayleft": false,
+                "compat_metadata": false,
+                "noframes": null,
+                "comment": null,
+                "compat_uW_gmonkey": false,
+                "compat_forvarin": false,
+                "check_for_updates": true,
+                "compatopts_for_requires": true,
+                "run_at": null
+            },
+            "storage": {
+                "data": {},
+                "ts": 1571164036214
+            },
+            "enabled": true,
+            "position": 3,
+            "uuid": "4e6f1824-c196-4a37-86e8-c41b5f9ebb41",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBTcGVsbCBjaGVjayBmb3IgVHlwZVJhY2VyCi8vIEBuYW1lc3BhY2UgICAgaHR0cDovL3RhbXBlcm1vbmtleS5uZXQvCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgRGlzYWJsZSBhdXRvIGNvcnJlY3Qgb24gVHlwZVJhY2VyLmNvbQovLyBAYXV0aG9yICAgICAgIFlvdQovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vcGxheS50eXBlcmFjZXIuY29tLyoKLy8gQGljb24gICAgICAgICBodHRwczovL3BsYXkudHlwZXJhY2VyLmNvbS9mYXZpY29uLmljbwovLyBAZ3JhbnQgICAgICAgIG5vbmUKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24oKSB7CiAgICBzZXRJbnRlcnZhbChmdW5jdGlvbigpIHsKICAgICAgICBjb25zdCBlbGVtID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSgndHh0SW5wdXQnKVswXTsKICAgICAgICBpZiAoZWxlbSkgewogICAgICAgICAgICBlbGVtLnNldEF0dHJpYnV0ZSgic3BlbGxjaGVjayIsICJmYWxzZSIpOwogICAgICAgIH0KICAgIH0sIDEwMDApOwp9KSgpOw=="
+        },
+        {
+            "name": "Open in IINA",
+            "options": {
+                "compat_foreach": false,
+                "override": {
+                    "merge_connects": true,
+                    "merge_excludes": true,
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "orig_excludes": [],
+                    "merge_matches": true,
+                    "orig_noframes": null,
+                    "use_matches": [],
+                    "merge_includes": true,
+                    "use_blockers": [],
+                    "orig_run_at": "document-idle",
+                    "use_connects": [],
+                    "orig_matches": [
+                        "https://app.plex.tv/desktop"
+                    ],
+                    "orig_includes": []
+                },
+                "awareOfChrome": false,
+                "compat_wrappedjsobject": false,
+                "compat_arrayleft": false,
+                "compat_metadata": false,
+                "noframes": null,
+                "comment": null,
+                "compat_uW_gmonkey": false,
+                "compat_forvarin": false,
+                "check_for_updates": true,
+                "compatopts_for_requires": true,
+                "run_at": null
+            },
+            "storage": {
+                "data": {},
+                "ts": 1571164036213
+            },
+            "enabled": true,
+            "position": 4,
+            "uuid": "39b77248-759e-4c28-aca9-21a061f5ed49",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBPcGVuIGluIElJTkEKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBSZXBsYWNlIGRvd25sb2FkIGJ5IE9wZW4gaW4gSUlOQQovLyBAYXV0aG9yICAgICAgIFNjb3RvdwovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vYXBwLnBsZXgudHYvZGVza3RvcAovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vYXNzZXRzLnBsZXgudHYvZGVwbG95cy9kZXNrdG9wL2Vudi1lYjI3OThjYzNjN2Q5NTMzZGY1YjU2Mzk2M2Q1YzM5NC80LjAuMS1lY2U3MDY0L2Zhdmljb24uaWNvCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgIGZ1bmN0aW9uIGlzTWVudShub2RlKSB7CiAgICAgICAgZm9yKGxldCBjIG9mIG5vZGUuY2xhc3NMaXN0KSB7CiAgICAgICAgICAgIGlmKGMuaW5jbHVkZXMoJ01lbnUtbWVudVBvcnRhbCcpKSByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBmdW5jdGlvbiBpbnNlcnRBZnRlcihub2RlLCB0YXJnZXQpIHsKICAgICAgICB0YXJnZXQucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUobm9kZSwgdGFyZ2V0Lm5leHRTaWJsaW5nKQogICAgfQoKICAgIGZ1bmN0aW9uIG9uTXV0YXRlKG11dGF0aW9uc0xpc3QsIG9ic2VydmVyKSB7CiAgICAgICAgZm9yKGxldCBtdXRhdGlvbiBvZiBtdXRhdGlvbnNMaXN0KSB7CiAgICAgICAgICAgIGZvcihsZXQgYWRkZWROb2RlIG9mIG11dGF0aW9uLmFkZGVkTm9kZXMpIHsKICAgICAgICAgICAgICAgIGlmKCFpc01lbnUoYWRkZWROb2RlKSkgY29udGludWUKICAgICAgICAgICAgICAgIGNvbnN0IG1lbnVOb2RlID0gYWRkZWROb2RlCgogICAgICAgICAgICAgICAgY29uc3QgZG93bmxvYWROb2RlID0gbWVudU5vZGUucXVlcnlTZWxlY3RvcignYVtkb3dubG9hZF0nKQogICAgICAgICAgICAgICAgaWYoIWRvd25sb2FkTm9kZSkgY29udGludWUKCiAgICAgICAgICAgICAgICBjb25zdCBpaW5hTm9kZSA9IGRvd25sb2FkTm9kZS5jbG9uZU5vZGUoKQogICAgICAgICAgICAgICAgaWluYU5vZGUudGV4dENvbnRlbnQgPSAnT3BlbiBpbiBJSU5BJwogICAgICAgICAgICAgICAgaWluYU5vZGUuaHJlZiA9IGBpaW5hOi8vd2VibGluaz91cmw9JHtlbmNvZGVVUklDb21wb25lbnQoZG93bmxvYWROb2RlLmhyZWYpfWAKICAgICAgICAgICAgICAgIGluc2VydEFmdGVyKGlpbmFOb2RlLCBkb3dubG9hZE5vZGUpCgogICAgICAgICAgICAgICAgY29uc3QgaWluYVBpcE5vZGUgPSBkb3dubG9hZE5vZGUuY2xvbmVOb2RlKCkKICAgICAgICAgICAgICAgIGlpbmFQaXBOb2RlLnRleHRDb250ZW50ID0gYCR7aWluYU5vZGUudGV4dENvbnRlbnR9IChQaVApYAogICAgICAgICAgICAgICAgaWluYVBpcE5vZGUuaHJlZiA9IGAke2lpbmFOb2RlLmhyZWZ9JnBpcD0xYAogICAgICAgICAgICAgICAgaW5zZXJ0QWZ0ZXIoaWluYVBpcE5vZGUsIGlpbmFOb2RlKQoKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbnN0IG9ic2VydmVyID0gbmV3IE11dGF0aW9uT2JzZXJ2ZXIob25NdXRhdGUpCiAgICBvYnNlcnZlci5vYnNlcnZlKGRvY3VtZW50LmJvZHksIHsgY2hpbGRMaXN0OiB0cnVlIH0pCn0pKCk="
+        },
+        {
+            "name": "Disable Reddit click on boxes",
+            "options": {
+                "compat_foreach": false,
+                "override": {
+                    "orig_matches": [
+                        "https://www.reddit.com/*"
+                    ],
+                    "orig_connects": [],
+                    "merge_connects": true,
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "orig_excludes": [],
+                    "merge_matches": true,
+                    "orig_noframes": null,
+                    "use_matches": [],
+                    "merge_includes": true,
+                    "use_blockers": [],
+                    "orig_run_at": "document-idle",
+                    "merge_excludes": true,
+                    "use_connects": [],
+                    "orig_includes": []
+                },
+                "awareOfChrome": false,
+                "compat_wrappedjsobject": false,
+                "compat_arrayleft": false,
+                "compat_metadata": false,
+                "noframes": null,
+                "comment": null,
+                "compat_uW_gmonkey": false,
+                "compat_forvarin": false,
+                "check_for_updates": true,
+                "compatopts_for_requires": true,
+                "run_at": null
+            },
+            "storage": {
+                "data": {},
+                "ts": 1588449589576
+            },
+            "enabled": true,
+            "position": 5,
+            "uuid": "3b494357-41f5-4b9d-8a13-70c3e155a6de",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBEaXNhYmxlIFJlZGRpdCBjbGljayBvbiBib3hlcwovLyBAdmVyc2lvbiAgICAgIDAuMQovLyBAYXV0aG9yICAgICAgIFNjb3RvdwovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdC5jb20vKgovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdHN0YXRpYy5jb20vZGVza3RvcDJ4L2ltZy9mYXZpY29uL2Zhdmljb24tOTZ4OTYucG5nCi8vIEBncmFudCAgICAgICAgR01fYWRkU3R5bGUKLy8gPT0vVXNlclNjcmlwdD09CgpHTV9hZGRTdHlsZShgCi5iRTdKZ00yZXg3VzNhRjN6Y2k1Ym0gewogIHBvaW50ZXItZXZlbnRzOiBub25lOwp9CgouXzIzaDAtRWNhQlVvcklIQy1KWnloNkosIC55OEhZSi15X2xUVUhrUUljMW1kQ3EsIC5fMTNzdmhRSVVacUQ5UFZ6RmNMd09LVCwgLl8ybUh1dXZ5Vjlkb1YzendiWlB0SVBHLCAuUnZMdEFjZFJ0Yk9RYmhGQjdNRF9ULCAuXzMtbWlBRW9qckN2eF80RlE4eDNQLXMgewogIHBvaW50ZXItZXZlbnRzOiBhbGw7Cn0KCmApOw=="
+        }
+    ]
+}
