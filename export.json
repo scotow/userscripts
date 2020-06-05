@@ -1,224 +1,361 @@
 {
-    "created_by": "Tampermonkey",
-    "version": "1",
-    "scripts": [
-        {
-            "name": "BetterTTV",
-            "options": {
-                "compat_foreach": false,
-                "override": {
-                    "merge_connects": true,
-                    "merge_excludes": true,
-                    "use_excludes": [],
-                    "use_includes": [],
-                    "orig_excludes": [],
-                    "merge_matches": true,
-                    "orig_noframes": null,
-                    "use_matches": [],
-                    "merge_includes": true,
-                    "use_blockers": [],
-                    "orig_run_at": "document-idle",
-                    "use_connects": [],
-                    "orig_matches": [],
-                    "orig_includes": [
-                        "*://*.twitch.tv/*"
-                    ]
-                },
-                "awareOfChrome": false,
-                "compat_wrappedjsobject": false,
-                "compat_arrayleft": false,
-                "compat_metadata": false,
-                "noframes": null,
-                "comment": null,
-                "compat_uW_gmonkey": false,
-                "compat_forvarin": false,
-                "check_for_updates": true,
-                "compatopts_for_requires": true,
-                "run_at": null
-            },
-            "storage": {
-                "data": {},
-                "ts": 1571164036211
-            },
-            "enabled": true,
-            "position": 1,
-            "file_url": "https://www.nightdev.com/betterttv/other/betterttv.user.js",
-            "uuid": "ace49216-eb01-42f8-a28e-8bf9de2e0320",
-            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgICBCZXR0ZXJUVFYKLy8gQG5hbWVzcGFjZSAgICAgICBCVFRWCi8vIEBkZXNjcmlwdGlvbiAgICAgRW5oYW5jZXMgVHdpdGNoIHdpdGggbmV3IGZlYXR1cmVzLCBlbW90ZXMsIGFuZCBtb3JlLgovLyBAY29weXJpZ2h0ICAgICAgIE5pZ2h0RGV2LCBMTEMKLy8gQGljb24gICAgICAgICAgICBodHRwczovL2Nkbi5iZXR0ZXJ0dHYubmV0L2Fzc2V0cy9sb2dvcy9idHR2X2xvZ28ucG5nCi8vCi8vIEBncmFudCAgICAgICAgICAgbm9uZQovLwovLyBAaW5jbHVkZSAgICAgICAgICo6Ly8qLnR3aXRjaC50di8qCi8vCi8vIEB2ZXJzaW9uICAgICAgICAgMC4wLjIKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24gYmV0dGVydHR2KCkgewogICAgdmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgc2NyaXB0LnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsKICAgIHNjcmlwdC5zcmMgPSAnaHR0cHM6Ly9jZG4uYmV0dGVydHR2Lm5ldC9iZXR0ZXJ0dHYuanMnOwogICAgdmFyIGhlYWQgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnaGVhZCcpWzBdOwogICAgaWYgKCFoZWFkKSByZXR1cm47CiAgICBoZWFkLmFwcGVuZENoaWxkKHNjcmlwdCk7Cn0pKCkK"
-        },
-        {
-            "name": "Reddit /r/all as home",
-            "options": {
-                "compat_foreach": false,
-                "override": {
-                    "orig_matches": [
-                        "https://www.reddit.com/*"
-                    ],
-                    "orig_connects": [],
-                    "merge_connects": true,
-                    "use_excludes": [],
-                    "use_includes": [],
-                    "orig_excludes": [],
-                    "merge_matches": true,
-                    "orig_noframes": null,
-                    "use_matches": [],
-                    "merge_includes": true,
-                    "use_blockers": [],
-                    "orig_run_at": "document-idle",
-                    "merge_excludes": true,
-                    "use_connects": [],
-                    "orig_includes": []
-                },
-                "awareOfChrome": false,
-                "compat_wrappedjsobject": false,
-                "compat_arrayleft": false,
-                "compat_metadata": false,
-                "noframes": null,
-                "comment": null,
-                "compat_uW_gmonkey": false,
-                "compat_forvarin": false,
-                "check_for_updates": true,
-                "compatopts_for_requires": true,
-                "run_at": null
-            },
-            "storage": {
-                "data": {},
-                "ts": 1571164036211
-            },
-            "enabled": true,
-            "position": 2,
-            "uuid": "f888868c-6be7-426f-994e-6d7bf49f8f89",
-            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBSZWRkaXQgL3IvYWxsIGFzIGhvbWUKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBUaGUgcmVkZGl0IGljb24gcmVkaXJlY3QgdG8gL3IvYWxsIGluc3RlYWQuCi8vIEBhdXRob3IgICAgICAgU2NvdG93Ci8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0LmNvbS8qCi8vIEBpY29uICAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0c3RhdGljLmNvbS9kZXNrdG9wMngvaW1nL2Zhdmljb24vZmF2aWNvbi05Nng5Ni5wbmcKLy8gQGdyYW50ICAgICAgICBub25lCi8vID09L1VzZXJTY3JpcHQ9PQoKKGZ1bmN0aW9uKCkgewogICAgdmFyIG9sZEVsZW1lbnQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCdoZWFkZXIgYScpOwogICAgdmFyIG5ld0VsZW1lbnQgPSBvbGRFbGVtZW50LmNsb25lTm9kZSh0cnVlKTsKICAgIG5ld0VsZW1lbnQuaHJlZiA9ICcvci9hbGwnOwogICAgb2xkRWxlbWVudC5wYXJlbnROb2RlLnJlcGxhY2VDaGlsZChuZXdFbGVtZW50LCBvbGRFbGVtZW50KTsKfSkoKTs="
-        },
-        {
-            "name": "Spell check for TypeRacer",
-            "options": {
-                "compat_foreach": false,
-                "override": {
-                    "merge_connects": true,
-                    "merge_excludes": true,
-                    "use_excludes": [],
-                    "use_includes": [],
-                    "orig_excludes": [],
-                    "merge_matches": true,
-                    "orig_noframes": null,
-                    "use_matches": [],
-                    "merge_includes": true,
-                    "use_blockers": [],
-                    "orig_run_at": "document-idle",
-                    "use_connects": [],
-                    "orig_matches": [
-                        "https://play.typeracer.com/*"
-                    ],
-                    "orig_includes": []
-                },
-                "awareOfChrome": false,
-                "compat_wrappedjsobject": false,
-                "compat_arrayleft": false,
-                "compat_metadata": false,
-                "noframes": null,
-                "comment": null,
-                "compat_uW_gmonkey": false,
-                "compat_forvarin": false,
-                "check_for_updates": true,
-                "compatopts_for_requires": true,
-                "run_at": null
-            },
-            "storage": {
-                "data": {},
-                "ts": 1571164036214
-            },
-            "enabled": true,
-            "position": 3,
-            "uuid": "4e6f1824-c196-4a37-86e8-c41b5f9ebb41",
-            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBTcGVsbCBjaGVjayBmb3IgVHlwZVJhY2VyCi8vIEBuYW1lc3BhY2UgICAgaHR0cDovL3RhbXBlcm1vbmtleS5uZXQvCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgRGlzYWJsZSBhdXRvIGNvcnJlY3Qgb24gVHlwZVJhY2VyLmNvbQovLyBAYXV0aG9yICAgICAgIFlvdQovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vcGxheS50eXBlcmFjZXIuY29tLyoKLy8gQGljb24gICAgICAgICBodHRwczovL3BsYXkudHlwZXJhY2VyLmNvbS9mYXZpY29uLmljbwovLyBAZ3JhbnQgICAgICAgIG5vbmUKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24oKSB7CiAgICBzZXRJbnRlcnZhbChmdW5jdGlvbigpIHsKICAgICAgICBjb25zdCBlbGVtID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSgndHh0SW5wdXQnKVswXTsKICAgICAgICBpZiAoZWxlbSkgewogICAgICAgICAgICBlbGVtLnNldEF0dHJpYnV0ZSgic3BlbGxjaGVjayIsICJmYWxzZSIpOwogICAgICAgIH0KICAgIH0sIDEwMDApOwp9KSgpOw=="
-        },
-        {
-            "name": "Open in IINA",
-            "options": {
-                "compat_foreach": false,
-                "override": {
-                    "merge_connects": true,
-                    "merge_excludes": true,
-                    "use_excludes": [],
-                    "use_includes": [],
-                    "orig_excludes": [],
-                    "merge_matches": true,
-                    "orig_noframes": null,
-                    "use_matches": [],
-                    "merge_includes": true,
-                    "use_blockers": [],
-                    "orig_run_at": "document-idle",
-                    "use_connects": [],
-                    "orig_matches": [
-                        "https://app.plex.tv/desktop"
-                    ],
-                    "orig_includes": []
-                },
-                "awareOfChrome": false,
-                "compat_wrappedjsobject": false,
-                "compat_arrayleft": false,
-                "compat_metadata": false,
-                "noframes": null,
-                "comment": null,
-                "compat_uW_gmonkey": false,
-                "compat_forvarin": false,
-                "check_for_updates": true,
-                "compatopts_for_requires": true,
-                "run_at": null
-            },
-            "storage": {
-                "data": {},
-                "ts": 1571164036213
-            },
-            "enabled": true,
-            "position": 4,
-            "uuid": "39b77248-759e-4c28-aca9-21a061f5ed49",
-            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBPcGVuIGluIElJTkEKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBSZXBsYWNlIGRvd25sb2FkIGJ5IE9wZW4gaW4gSUlOQQovLyBAYXV0aG9yICAgICAgIFNjb3RvdwovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vYXBwLnBsZXgudHYvZGVza3RvcAovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vYXNzZXRzLnBsZXgudHYvZGVwbG95cy9kZXNrdG9wL2Vudi1lYjI3OThjYzNjN2Q5NTMzZGY1YjU2Mzk2M2Q1YzM5NC80LjAuMS1lY2U3MDY0L2Zhdmljb24uaWNvCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgIGZ1bmN0aW9uIGlzTWVudShub2RlKSB7CiAgICAgICAgZm9yKGxldCBjIG9mIG5vZGUuY2xhc3NMaXN0KSB7CiAgICAgICAgICAgIGlmKGMuaW5jbHVkZXMoJ01lbnUtbWVudVBvcnRhbCcpKSByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBmdW5jdGlvbiBpbnNlcnRBZnRlcihub2RlLCB0YXJnZXQpIHsKICAgICAgICB0YXJnZXQucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUobm9kZSwgdGFyZ2V0Lm5leHRTaWJsaW5nKQogICAgfQoKICAgIGZ1bmN0aW9uIG9uTXV0YXRlKG11dGF0aW9uc0xpc3QsIG9ic2VydmVyKSB7CiAgICAgICAgZm9yKGxldCBtdXRhdGlvbiBvZiBtdXRhdGlvbnNMaXN0KSB7CiAgICAgICAgICAgIGZvcihsZXQgYWRkZWROb2RlIG9mIG11dGF0aW9uLmFkZGVkTm9kZXMpIHsKICAgICAgICAgICAgICAgIGlmKCFpc01lbnUoYWRkZWROb2RlKSkgY29udGludWUKICAgICAgICAgICAgICAgIGNvbnN0IG1lbnVOb2RlID0gYWRkZWROb2RlCgogICAgICAgICAgICAgICAgY29uc3QgZG93bmxvYWROb2RlID0gbWVudU5vZGUucXVlcnlTZWxlY3RvcignYVtkb3dubG9hZF0nKQogICAgICAgICAgICAgICAgaWYoIWRvd25sb2FkTm9kZSkgY29udGludWUKCiAgICAgICAgICAgICAgICBjb25zdCBpaW5hTm9kZSA9IGRvd25sb2FkTm9kZS5jbG9uZU5vZGUoKQogICAgICAgICAgICAgICAgaWluYU5vZGUudGV4dENvbnRlbnQgPSAnT3BlbiBpbiBJSU5BJwogICAgICAgICAgICAgICAgaWluYU5vZGUuaHJlZiA9IGBpaW5hOi8vd2VibGluaz91cmw9JHtlbmNvZGVVUklDb21wb25lbnQoZG93bmxvYWROb2RlLmhyZWYpfWAKICAgICAgICAgICAgICAgIGluc2VydEFmdGVyKGlpbmFOb2RlLCBkb3dubG9hZE5vZGUpCgogICAgICAgICAgICAgICAgY29uc3QgaWluYVBpcE5vZGUgPSBkb3dubG9hZE5vZGUuY2xvbmVOb2RlKCkKICAgICAgICAgICAgICAgIGlpbmFQaXBOb2RlLnRleHRDb250ZW50ID0gYCR7aWluYU5vZGUudGV4dENvbnRlbnR9IChQaVApYAogICAgICAgICAgICAgICAgaWluYVBpcE5vZGUuaHJlZiA9IGAke2lpbmFOb2RlLmhyZWZ9JnBpcD0xYAogICAgICAgICAgICAgICAgaW5zZXJ0QWZ0ZXIoaWluYVBpcE5vZGUsIGlpbmFOb2RlKQoKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbnN0IG9ic2VydmVyID0gbmV3IE11dGF0aW9uT2JzZXJ2ZXIob25NdXRhdGUpCiAgICBvYnNlcnZlci5vYnNlcnZlKGRvY3VtZW50LmJvZHksIHsgY2hpbGRMaXN0OiB0cnVlIH0pCn0pKCk="
-        },
-        {
-            "name": "Disable Reddit click on boxes",
-            "options": {
-                "compat_foreach": false,
-                "override": {
-                    "orig_matches": [
-                        "https://www.reddit.com/*"
-                    ],
-                    "orig_connects": [],
-                    "merge_connects": true,
-                    "use_excludes": [],
-                    "use_includes": [],
-                    "orig_excludes": [],
-                    "merge_matches": true,
-                    "orig_noframes": null,
-                    "use_matches": [],
-                    "merge_includes": true,
-                    "use_blockers": [],
-                    "orig_run_at": "document-idle",
-                    "merge_excludes": true,
-                    "use_connects": [],
-                    "orig_includes": []
-                },
-                "awareOfChrome": false,
-                "compat_wrappedjsobject": false,
-                "compat_arrayleft": false,
-                "compat_metadata": false,
-                "noframes": null,
-                "comment": null,
-                "compat_uW_gmonkey": false,
-                "compat_forvarin": false,
-                "check_for_updates": true,
-                "compatopts_for_requires": true,
-                "run_at": null
-            },
-            "storage": {
-                "data": {},
-                "ts": 1588449589576
-            },
-            "enabled": true,
-            "position": 5,
-            "uuid": "3b494357-41f5-4b9d-8a13-70c3e155a6de",
-            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBEaXNhYmxlIFJlZGRpdCBjbGljayBvbiBib3hlcwovLyBAdmVyc2lvbiAgICAgIDAuMQovLyBAYXV0aG9yICAgICAgIFNjb3RvdwovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdC5jb20vKgovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdHN0YXRpYy5jb20vZGVza3RvcDJ4L2ltZy9mYXZpY29uL2Zhdmljb24tOTZ4OTYucG5nCi8vIEBncmFudCAgICAgICAgR01fYWRkU3R5bGUKLy8gPT0vVXNlclNjcmlwdD09CgpHTV9hZGRTdHlsZShgCi5iRTdKZ00yZXg3VzNhRjN6Y2k1Ym0gewogIHBvaW50ZXItZXZlbnRzOiBub25lOwp9CgouXzIzaDAtRWNhQlVvcklIQy1KWnloNkosIC55OEhZSi15X2xUVUhrUUljMW1kQ3EsIC5fMTNzdmhRSVVacUQ5UFZ6RmNMd09LVCwgLl8ybUh1dXZ5Vjlkb1YzendiWlB0SVBHLCAuUnZMdEFjZFJ0Yk9RYmhGQjdNRF9ULCAuXzMtbWlBRW9qckN2eF80RlE4eDNQLXMgewogIHBvaW50ZXItZXZlbnRzOiBhbGw7Cn0KCmApOw=="
+  "created_by": "Tampermonkey",
+  "version": "1",
+  "scripts": [
+    {
+      "name": "BetterTTV",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [
+            "*://*.twitch.tv/*"
+          ],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null
         }
-    ]
+      },
+      "storage": {
+        "data": {},
+        "ts": 1571164036211
+      },
+      "enabled": true,
+      "position": 1,
+      "file_url": "https://www.nightdev.com/betterttv/other/betterttv.user.js",
+      "uuid": "ace49216-eb01-42f8-a28e-8bf9de2e0320",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgICBCZXR0ZXJUVFYKLy8gQG5hbWVzcGFjZSAgICAgICBCVFRWCi8vIEBkZXNjcmlwdGlvbiAgICAgRW5oYW5jZXMgVHdpdGNoIHdpdGggbmV3IGZlYXR1cmVzLCBlbW90ZXMsIGFuZCBtb3JlLgovLyBAY29weXJpZ2h0ICAgICAgIE5pZ2h0RGV2LCBMTEMKLy8gQGljb24gICAgICAgICAgICBodHRwczovL2Nkbi5iZXR0ZXJ0dHYubmV0L2Fzc2V0cy9sb2dvcy9idHR2X2xvZ28ucG5nCi8vCi8vIEBncmFudCAgICAgICAgICAgbm9uZQovLwovLyBAaW5jbHVkZSAgICAgICAgICo6Ly8qLnR3aXRjaC50di8qCi8vCi8vIEB2ZXJzaW9uICAgICAgICAgMC4wLjIKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24gYmV0dGVydHR2KCkgewogICAgdmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgc2NyaXB0LnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsKICAgIHNjcmlwdC5zcmMgPSAnaHR0cHM6Ly9jZG4uYmV0dGVydHR2Lm5ldC9iZXR0ZXJ0dHYuanMnOwogICAgdmFyIGhlYWQgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnaGVhZCcpWzBdOwogICAgaWYgKCFoZWFkKSByZXR1cm47CiAgICBoZWFkLmFwcGVuZENoaWxkKHNjcmlwdCk7Cn0pKCkK"
+    },
+    {
+      "name": "Reddit /r/all as home",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://www.reddit.com/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "data": {},
+        "ts": 1571164036211
+      },
+      "enabled": true,
+      "position": 2,
+      "uuid": "f888868c-6be7-426f-994e-6d7bf49f8f89",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBSZWRkaXQgL3IvYWxsIGFzIGhvbWUKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBUaGUgcmVkZGl0IGljb24gcmVkaXJlY3QgdG8gL3IvYWxsIGluc3RlYWQuCi8vIEBhdXRob3IgICAgICAgU2NvdG93Ci8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0LmNvbS8qCi8vIEBpY29uICAgICAgICAgaHR0cHM6Ly93d3cucmVkZGl0c3RhdGljLmNvbS9kZXNrdG9wMngvaW1nL2Zhdmljb24vZmF2aWNvbi05Nng5Ni5wbmcKLy8gQGdyYW50ICAgICAgICBub25lCi8vID09L1VzZXJTY3JpcHQ9PQoKKGZ1bmN0aW9uKCkgewogICAgdmFyIG9sZEVsZW1lbnQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCdoZWFkZXIgYScpOwogICAgdmFyIG5ld0VsZW1lbnQgPSBvbGRFbGVtZW50LmNsb25lTm9kZSh0cnVlKTsKICAgIG5ld0VsZW1lbnQuaHJlZiA9ICcvci9hbGwnOwogICAgb2xkRWxlbWVudC5wYXJlbnROb2RlLnJlcGxhY2VDaGlsZChuZXdFbGVtZW50LCBvbGRFbGVtZW50KTsKfSkoKTs="
+    },
+    {
+      "name": "Disable spell check for TypeRacer",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://play.typeracer.com/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "data": {},
+        "ts": 1571164036214
+      },
+      "enabled": true,
+      "position": 3,
+      "uuid": "4e6f1824-c196-4a37-86e8-c41b5f9ebb41",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBEaXNhYmxlIHNwZWxsIGNoZWNrIGZvciBUeXBlUmFjZXIKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBEaXNhYmxlIGF1dG8gY29ycmVjdCBvbiBUeXBlUmFjZXIuY29tCi8vIEBhdXRob3IgICAgICAgWW91Ci8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly9wbGF5LnR5cGVyYWNlci5jb20vKgovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vcGxheS50eXBlcmFjZXIuY29tL2Zhdmljb24uaWNvCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgIHNldEludGVydmFsKGZ1bmN0aW9uKCkgewogICAgICAgIGNvbnN0IGVsZW0gPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKCd0eHRJbnB1dCcpWzBdOwogICAgICAgIGlmIChlbGVtKSB7CiAgICAgICAgICAgIGVsZW0uc2V0QXR0cmlidXRlKCJzcGVsbGNoZWNrIiwgImZhbHNlIik7CiAgICAgICAgfQogICAgfSwgMTAwMCk7Cn0pKCk7"
+    },
+    {
+      "name": "Open in IINA from Plex",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://app.plex.tv/desktop"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "data": {},
+        "ts": 1571164036213
+      },
+      "enabled": true,
+      "position": 4,
+      "uuid": "39b77248-759e-4c28-aca9-21a061f5ed49",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBPcGVuIGluIElJTkEgZnJvbSBQbGV4Ci8vIEBuYW1lc3BhY2UgICAgaHR0cDovL3RhbXBlcm1vbmtleS5uZXQvCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgUmVwbGFjZSBkb3dubG9hZCBieSBPcGVuIGluIElJTkEKLy8gQGF1dGhvciAgICAgICBTY290b3cKLy8gQG1hdGNoICAgICAgICBodHRwczovL2FwcC5wbGV4LnR2L2Rlc2t0b3AKLy8gQGljb24gICAgICAgICBodHRwczovL2Fzc2V0cy5wbGV4LnR2L2RlcGxveXMvZGVza3RvcC9lbnYtZWIyNzk4Y2MzYzdkOTUzM2RmNWI1NjM5NjNkNWMzOTQvNC4wLjEtZWNlNzA2NC9mYXZpY29uLmljbwovLyBAZ3JhbnQgICAgICAgIG5vbmUKLy8gPT0vVXNlclNjcmlwdD09CgooZnVuY3Rpb24oKSB7CiAgICBmdW5jdGlvbiBpc01lbnUobm9kZSkgewogICAgICAgIGZvcihsZXQgYyBvZiBub2RlLmNsYXNzTGlzdCkgewogICAgICAgICAgICBpZihjLmluY2x1ZGVzKCdNZW51LW1lbnVQb3J0YWwnKSkgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgZnVuY3Rpb24gaW5zZXJ0QWZ0ZXIobm9kZSwgdGFyZ2V0KSB7CiAgICAgICAgdGFyZ2V0LnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKG5vZGUsIHRhcmdldC5uZXh0U2libGluZykKICAgIH0KCiAgICBmdW5jdGlvbiBvbk11dGF0ZShtdXRhdGlvbnNMaXN0LCBvYnNlcnZlcikgewogICAgICAgIGZvcihsZXQgbXV0YXRpb24gb2YgbXV0YXRpb25zTGlzdCkgewogICAgICAgICAgICBmb3IobGV0IGFkZGVkTm9kZSBvZiBtdXRhdGlvbi5hZGRlZE5vZGVzKSB7CiAgICAgICAgICAgICAgICBpZighaXNNZW51KGFkZGVkTm9kZSkpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBjb25zdCBtZW51Tm9kZSA9IGFkZGVkTm9kZQoKICAgICAgICAgICAgICAgIGNvbnN0IGRvd25sb2FkTm9kZSA9IG1lbnVOb2RlLnF1ZXJ5U2VsZWN0b3IoJ2FbZG93bmxvYWRdJykKICAgICAgICAgICAgICAgIGlmKCFkb3dubG9hZE5vZGUpIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgY29uc3QgaWluYU5vZGUgPSBkb3dubG9hZE5vZGUuY2xvbmVOb2RlKCkKICAgICAgICAgICAgICAgIGlpbmFOb2RlLnRleHRDb250ZW50ID0gJ09wZW4gaW4gSUlOQScKICAgICAgICAgICAgICAgIGlpbmFOb2RlLmhyZWYgPSBgaWluYTovL3dlYmxpbms/dXJsPSR7ZW5jb2RlVVJJQ29tcG9uZW50KGRvd25sb2FkTm9kZS5ocmVmKX1gCiAgICAgICAgICAgICAgICBpbnNlcnRBZnRlcihpaW5hTm9kZSwgZG93bmxvYWROb2RlKQoKICAgICAgICAgICAgICAgIGNvbnN0IGlpbmFQaXBOb2RlID0gZG93bmxvYWROb2RlLmNsb25lTm9kZSgpCiAgICAgICAgICAgICAgICBpaW5hUGlwTm9kZS50ZXh0Q29udGVudCA9IGAke2lpbmFOb2RlLnRleHRDb250ZW50fSAoUGlQKWAKICAgICAgICAgICAgICAgIGlpbmFQaXBOb2RlLmhyZWYgPSBgJHtpaW5hTm9kZS5ocmVmfSZwaXA9MWAKICAgICAgICAgICAgICAgIGluc2VydEFmdGVyKGlpbmFQaXBOb2RlLCBpaW5hTm9kZSkKCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25zdCBvYnNlcnZlciA9IG5ldyBNdXRhdGlvbk9ic2VydmVyKG9uTXV0YXRlKQogICAgb2JzZXJ2ZXIub2JzZXJ2ZShkb2N1bWVudC5ib2R5LCB7IGNoaWxkTGlzdDogdHJ1ZSB9KQp9KSgp"
+    },
+    {
+      "name": "Disable Reddit click on boxes",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://www.reddit.com/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1588449589576,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 5,
+      "uuid": "3b494357-41f5-4b9d-8a13-70c3e155a6de",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBEaXNhYmxlIFJlZGRpdCBjbGljayBvbiBib3hlcwovLyBAdmVyc2lvbiAgICAgIDAuMQovLyBAYXV0aG9yICAgICAgIFNjb3RvdwovLyBAbWF0Y2ggICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdC5jb20vKgovLyBAaWNvbiAgICAgICAgIGh0dHBzOi8vd3d3LnJlZGRpdHN0YXRpYy5jb20vZGVza3RvcDJ4L2ltZy9mYXZpY29uL2Zhdmljb24tOTZ4OTYucG5nCi8vIEBncmFudCAgICAgICAgR01fYWRkU3R5bGUKLy8gPT0vVXNlclNjcmlwdD09CgpHTV9hZGRTdHlsZShgCi5iRTdKZ00yZXg3VzNhRjN6Y2k1Ym0gewogIHBvaW50ZXItZXZlbnRzOiBub25lOwp9CgouXzIzaDAtRWNhQlVvcklIQy1KWnloNkosIC55OEhZSi15X2xUVUhrUUljMW1kQ3EsIC5fMTNzdmhRSVVacUQ5UFZ6RmNMd09LVCwgLl8ybUh1dXZ5Vjlkb1YzendiWlB0SVBHLCAuUnZMdEFjZFJ0Yk9RYmhGQjdNRF9ULCAuXzMtbWlBRW9qckN2eF80RlE4eDNQLXMsIC5fM09hMFRIbVozZjVpWlhBUTBoQkowaywgLm0zYU5DNnlwOFJyTk1fLWEwcnJmYSB7CiAgcG9pbnRlci1ldmVudHM6IGFsbDsKfQoKYCk7"
+    },
+    {
+      "name": "Skribbl.io Helper",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://skribbl.io/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1591313140227,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 6,
+      "file_url": "https://greasyfork.org/scripts/374584-skribbl-io-helper/code/Skribblio%20Helper.user.js",
+      "uuid": "7b3e1bd2-5a63-476e-88c1-7a92d65d8fa7",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBTa3JpYmJsLmlvIEhlbHBlcgovLyBAdmVyc2lvbiAgICAgIDAuMjQKLy8gQGRlc2NyaXB0aW9uICBMZWFybnMgdGhlIHdvcmRsaXN0IGVhY2ggcm91bmQgYW5kIG91dHB1dHMgcG9zc2libGUgd29yZHMgaW4gY2hhdC4KLy8gQGF1dGhvciAgICAgICBuMHRoaW5nCi8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly9za3JpYmJsLmlvLyoKLy8gQGdyYW50ICAgICAgICBub25lCi8vIEBuYW1lc3BhY2UgaHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy91c2Vycy85MDc3MAovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgICd1c2Ugc3RyaWN0JzsKCmlmIChsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnd29yZGxpc3QnKSAhPT0gbnVsbCkgewogIHdpbmRvdy5hbGVydCgnSGVsbG8gZnJvbSBuMHRoaW5nISBJIGFtIHRoZSBkZXZlbG9wZXIgb2YgU2tyaWJibC5pbyBIZWxwZXIsIGFuZCBJXCd2ZSBqdXN0IHVwZGF0ZWQgdGhlIHNjcmlwdCBmcm9tIDAuMTIgdG8gMC4yMC5cblRoaXMgbmV3IHVwZGF0ZSBhbGxvd3MgZm9yIG11bHRpLWxhbmd1YWdlIHN1cHBvcnQsIGJ1dCB5b3VyIGN1cnJlbnQgV09SRExJU1Qgd2lsbCBiZSBhZmZlY3RlZCFcblBsZWFzZSB0cmFuc2ZlciB5b3VyIGN1cnJlbnQgd29yZGxpc3QgdG8gd29yZGxpc3RbTGFuZ10gc28gU2tyaWJibC5pbyBoZWxwZXIgY2FuIHVzZSB5b3VyIGN1cnJlbnQgd29yZGxpc3QuXG5TZWUgdGhpcyB0aGlzIGZvcnVtIChncmVhc3lmb3JrLm9yZy9lbi9mb3J1bS9kaXNjdXNzaW9uLzQ4ODY1LykgZm9yIG1vcmUgaW5mb3JtYXRpb24gYW5kIGhvdyB0byB0cmFuc2ZlciFcblxuIFRoaXMgcG9wdXAgd2lsbCBzdG9wIGFwcGVhcmluZyBvbmNlIHRoZSB0cmFuc2ZlciBpcyBjb21wbGV0ZS4nKTsKfQoKLy9jcmVhdGUgd29yZGxpc3QgbmFtZSwgY2hlY2sgaWYgd29yZGxpc3QgbG9jYWxzdG9yYWdlIGV4aXN0cyB1cG9uIGpvaW5pbmcgZ2FtZQp2YXIgd29yZGxpc3Q7IC8vZGVjbGFyZSBnbG9iYWwgc2NvcGUgd29yZGxpc3QgdmFyCmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNmb3JtTG9naW4gPiBidXR0b24nKS5vbmNsaWNrID0gZnVuY3Rpb24oKXsKd29yZGxpc3QgPSAnd29yZGxpc3QnICsgZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2xvZ2luTGFuZ3VhZ2UnKS52YWx1ZTsKaWYgKGxvY2FsU3RvcmFnZS5nZXRJdGVtKHdvcmRsaXN0KSA9PT0gbnVsbCkgewpsb2NhbFN0b3JhZ2Uuc2V0SXRlbSh3b3JkbGlzdCwnIiInKTsKfQp9OwoKdmFyIHdvcmRoaW50Owp2YXIgd29yZFJHWDsKdmFyIGk7CgovL2NyZWF0ZSBtZXNzYWdlIGVsZW1lbnQKdmFyIG1lc3NhZ2VlbGVtZW50ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgncCcpOwptZXNzYWdlZWxlbWVudC5zZXRBdHRyaWJ1dGUoJ3N0eWxlJywgJ2Rpc3BsYXk6IG5vbmUnKTsKbWVzc2FnZWVsZW1lbnQuc2V0QXR0cmlidXRlKCdpZCcsJ2JvdENoYXQnKTsKdmFyIGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzcGFuJyk7CmMuc2V0QXR0cmlidXRlKCdpZCcsJ2hpbnQnKTsKbWVzc2FnZWVsZW1lbnQuYXBwZW5kQ2hpbGQoYyk7CmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjb250YWluZXJTaWRlYmFyJykuaW5zZXJ0QmVmb3JlKG1lc3NhZ2VlbGVtZW50LCBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY29udGFpbmVyU2lkZWJhcicpLmNoaWxkTm9kZXNbMF0pOyAvL2luc2VydCBib3QgY2hhdAoKZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NvbnRhaW5lckZyZWVzcGFjZScpLnNldEF0dHJpYnV0ZSgnc3R5bGUnLCdkaXNwbGF5OiBub25lJyk7Cgp2YXIgY3NzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc3R5bGUnKTsKY3NzLmlubmVySFRNTCA9ICcjYm90Q2hhdHsgYm9yZGVyLXJhZGl1czogMnB4OyBiYWNrZ3JvdW5kOiByZ2IoMjM4LCAyMzgsIDIzOCk7IHdpZHRoOmluaGVyaXQtNXB4OyBvdmVyZmxvdy13cmFwOiBicmVhay13b3JkOyBwb3NpdGlvbjphYnNvbHV0ZTtyaWdodDowO3RvcDozcHg7bGVmdDozcHg7IGNvbG9yOiByZ2IoMjA2LCA3OSwgMTApO30nOwpkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGNzcyk7Cgpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaW5wdXRDaGF0Jykuc2V0QXR0cmlidXRlKCdwbGFjZWhvbGRlcicsICdQcmVzcyBBTFQgdG8gb3BlbiBtYXRjaGluZyB3b3JkcycpOyAgLy8gaW5wdXQgd29yZGhpbnQgaW50byBjaGF0Cgpkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiYm9keSIpWzBdLm9ua2V5dXAgPSBmdW5jdGlvbigpIHsKICAgICAgICAgICAgaWYgKGV2ZW50LmtleSA9PT0gIkFsdCIgKXsKCQkJCQkJCWNoYXRib3QoKTsKCQkJCQkJfX07CgovL211dGF0aW9uT2JzZXJ2ZXIgPiB0cmlnZ2VyIHdvcmRDYXB0dXJlCnZhciBNdXRhdGlvbk9ic2VydmVyID0gd2luZG93Lk11dGF0aW9uT2JzZXJ2ZXIgfHwgd2luZG93LldlYktpdE11dGF0aW9uT2JzZXJ2ZXIgfHwgd2luZG93Lk1vek11dGF0aW9uT2JzZXJ2ZXI7CnZhciBlbGVtZW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI292ZXJsYXkgPiBkaXYgPiBkaXYudGV4dCcpOwp2YXIgb2JzZXJ2ZXIgPSBuZXcgTXV0YXRpb25PYnNlcnZlcihmdW5jdGlvbihtdXRhdGlvbnMpIHsKICBtdXRhdGlvbnMuZm9yRWFjaChmdW5jdGlvbihtdXRhdGlvbikgewogICAgaWYgKG11dGF0aW9uLnR5cGUgPT0gJ2NoaWxkTGlzdCcpIHsKICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNvdmVybGF5ID4gZGl2ID4gZGl2LnRleHQnKS50ZXh0Q29udGVudC5zdGFydHNXaXRoKCJDaG9vc2UgYSB3b3JkIikpe3dvcmRjaG9pY2VDYXB0dXJlKCk7fTsgLy90cmlnZ2VyIHdvcmRDYXR1cHJlKCkgd2hlbiB0dXJuIGVuZHMKICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNvdmVybGF5ID4gZGl2ID4gZGl2LnRleHQnKS50ZXh0Q29udGVudC5zdGFydHNXaXRoKCJUaGUgd29yZCB3YXMiKSl7d29yZENhcHR1cmUoKTt9OwogICAgfQogIH0pOwp9KTsKb2JzZXJ2ZXIub2JzZXJ2ZShlbGVtZW50LCB7CiAgY2hpbGRMaXN0OiB0cnVlCn0pOwoKLy9jYXB0dXJlIHdvcmQgZnJvbSBza3JpYmJsLmlvIGFmdGVyIHJvdW5kCmZ1bmN0aW9uIHdvcmRDYXB0dXJlKCkgewogdmFyIHdvcmQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjb3ZlcmxheSA+IGRpdiA+IGRpdi50ZXh0JykudGV4dENvbnRlbnQuc2xpY2UoMTQpOwogaWYgKGxvY2FsU3RvcmFnZS5nZXRJdGVtKHdvcmRsaXN0KS5zZWFyY2goICciJyArIHdvcmQgKyAnIicpID09PSAtMSl7CiAJaWYgKHdvcmQuZW5kc1dpdGgoJ3dvcmQhJykgPT09IGZhbHNlKXsKbG9jYWxTdG9yYWdlLnNldEl0ZW0od29yZGxpc3QsbG9jYWxTdG9yYWdlLmdldEl0ZW0od29yZGxpc3QpICsgJywiJyArIHdvcmQgKyAnIicpOyAgLy91cGRhdGVzIGxvY2Fsc3RvcmFnZQp9CiB9Cn0KZnVuY3Rpb24gd29yZGNob2ljZUNhcHR1cmUoKSB7IC8vSXMgY2FsbGVkIHR3aWNlIGJ5IG11dGF0aW9uIG9ic2VydmVyCiAgdmFyIHdvcmRjaG9pY2VsaXN0ID0gW107CiAgZm9yIChpID0gMDsgaSA8IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoIndvcmQiKS5sZW5ndGg7IGkrKyl7CiAgICAgd29yZGNob2ljZWxpc3QucHVzaChkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKCJ3b3JkIilbaV0udGV4dENvbnRlbnQpOyAvL2NvbGxlY3RzIHdvcmRzIGZyb20gd29yZCBvcHRpb25zIHdoZW4gaXQncyB0aGUgcGxheWVyJ3MgdHVybiB0byBkcmF3LgogIH07IC8vIHNvbWVob3cgY3JlYXRlcyB1bmRlZmluZWQsIndvcmQxIiwid29yZDIiLCJ3b3JkMyIKICBjb25zb2xlLmxvZyh3b3JkY2hvaWNlbGlzdCkKICBmb3IgKGkgPSAwOyBpIDwgd29yZGNob2ljZWxpc3QubGVuZ3RoOyBpKyspewogICAgaWYgKGxvY2FsU3RvcmFnZS5nZXRJdGVtKHdvcmRsaXN0KS5zZWFyY2goICciJyArIHdvcmRjaG9pY2VsaXN0W2ldICsgJyInKSA9PT0gLTEpewogICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSh3b3JkbGlzdCxsb2NhbFN0b3JhZ2UuZ2V0SXRlbSh3b3JkbGlzdCkgKyAnLCInICsgd29yZGNob2ljZWxpc3RbaV0gKyAnIicpOwogIH0KfQp9CgpmdW5jdGlvbiBjaGF0Ym90KCl7CiAgdmFyIHdvcmRSR1ggPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY3VycmVudFdvcmQnKS50ZXh0Q29udGVudDsKCndoaWxlICh3b3JkUkdYLmNoYXJBdCgwKSA9PT0gJ18nIHx8IHdvcmRSR1guY2hhckF0KHdvcmRSR1gubGVuZ3RoLTEpID09PSAnXycpewppZiAod29yZFJHWC5jaGFyQXQoMCkgPT09ICdfJyl7CiAgICAgIHdvcmRSR1ggPSB3b3JkUkdYLnJlcGxhY2UoJ18nLCdbXiBdJyk7CiAgICB9IGVsc2UgaWYod29yZFJHWC5jaGFyQXQod29yZFJHWC5sZW5ndGgtMSkgPT09ICdfJyl7CiAgICAgIHdvcmRSR1ggPSB3b3JkUkdYLnJlcGxhY2UoL18kLywnW14gXScpOwogICAgfQogIH0KICB3b3JkUkdYID0gd29yZFJHWC5yZXBsYWNlKC9fL2csJ1teIF0nKTsKICB3b3JkUkdYID0gJyInLmNvbmNhdCh3b3JkUkdYLCciJyk7CiAgd29yZFJHWCA9IG5ldyBSZWdFeHAod29yZFJHWCwgJ2cnKTsKCgl2YXIgd29yZGhpbnQgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSh3b3JkbGlzdCkubWF0Y2god29yZFJHWCkuZmlsdGVyKGZ1bmN0aW9uKGYpe3JldHVybiAhZi5pbmNsdWRlcygnLCcpO30pLnNvcnQoKS50b1N0cmluZygpLnJlcGxhY2UoLyIvZywnJykucmVwbGFjZSgvLC9nLCcsICcpOyAvLyBjbGVhbiB1cCByZXN1bHQgZm9yIGJvdCBjaGF0CgppZiAoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2JvdENoYXQnKS5hdHRyaWJ1dGVzWzBdLnZhbHVlLnNlYXJjaCgnZGlzcGxheTogbm9uZScpICE9IC0xKXsvL2lmIGhpZGRlbgpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaGludCcpLmlubmVySFRNTCA9IHdvcmRoaW50Owpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYm90Q2hhdCcpLnNldEF0dHJpYnV0ZSgnc3R5bGUnLCdkaXNwbGF5OicpOwp9IGVsc2Uge2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdib3RDaGF0Jykuc2V0QXR0cmlidXRlKCdzdHlsZScsJ2Rpc3BsYXk6IG5vbmUnKTt9Cgpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYm94TWVzc2FnZXMnKS5zY3JvbGxUb3AgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYm94TWVzc2FnZXMnKS5zY3JvbGxIZWlnaHQ7IC8vc2Nyb2xsdG8gYm90dG9tIG9mIGNoYXQKfQp9KSgpOw=="
+    },
+    {
+      "name": "Auto base 64 decode snahp.it",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://forum.snahp.it/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1591387159779,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 7,
+      "uuid": "abd2f094-11df-42f3-89be-32221ec2296e",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBBdXRvIGJhc2UgNjQgZGVjb2RlIHNuYWhwLml0Ci8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgdHJ5IHRvIHRha2Ugb3ZlciB0aGUgd29ybGQhCi8vIEBhdXRob3IgICAgICAgU2NvdG93Ci8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly9mb3J1bS5zbmFocC5pdC8qCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCmNvbnN0IGI2NFJlZ2V4ID0gL14oPzpbQS1aYS16MC05Ky9dezR9KSooPzpbQS1aYS16MC05Ky9dezJ9PT18W0EtWmEtejAtOSsvXXszfT0pPyQvOwpmb3IgKGNvbnN0IGVsZW0gb2YgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnZGQnKSkgewogICAgbGV0IGNvbnRlbnQgPSBlbGVtLnRleHRDb250ZW50LnRyaW0oKTsKICAgIGlmIChjb250ZW50Lmxlbmd0aCA9PT0gMCB8fCAhYjY0UmVnZXgudGVzdChjb250ZW50KSkgY29udGludWU7CgogICAgd2hpbGUgKGI2NFJlZ2V4LnRlc3QoY29udGVudCkpIHsKICAgICAgICBjb250ZW50ID0gYXRvYihjb250ZW50KTsKICAgIH0KCiAgICBlbGVtLnRleHRDb250ZW50ID0gY29udGVudDsKfQ=="
+    },
+    {
+      "name": "Wikipedia Auto Dark Mode",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [
+            "https://*wikipedia.*/*",
+            "*wikipedia.*/*"
+          ],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-start",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1591388780045,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 8,
+      "file_url": "https://openuserjs.org/install/navchandar/Wikipedia_Auto_Dark_Mode.user.js",
+      "uuid": "126aa626-04c1-4c76-a151-7dbd308d8a5b",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgICBXaWtpcGVkaWEgQXV0byBEYXJrIE1vZGUKLy8gQGRlc2NyaXB0aW9uICAgICBBdXRvLWVuYWJsZXMgRGFyayBtb2RlIG9uIFdpa2lwZWRpYSBzaXRlcwovLyBAYXV0aG9yICAgICAgICAgIG5hdmNoYW5kYXIKLy8gQGluY2x1ZGUgICAgICAgICBodHRwczovLyp3aWtpcGVkaWEuKi8qCi8vIEBpbmNsdWRlICAgICAgICAgKndpa2lwZWRpYS4qLyoKLy8gQHZlcnNpb24gICAgICAgICAxLjAKLy8gQHJ1bi1hdCAgICAgICAgICBkb2N1bWVudC1zdGFydAovLyBAY29weXJpZ2h0ICAgICAgIDIwMTgsIG5hdmNoYW5kYXIgKGh0dHBzOi8vb3BlbnVzZXJqcy5vcmcvdXNlcnMvbmF2Y2hhbmRhcikKLy8gQHVwZGF0ZVVSTCAgICAgICBodHRwczovL29wZW51c2VyanMub3JnL21ldGEvbmF2Y2hhbmRhci9XaWtpcGVkaWFfQXV0b19EYXJrX01vZGUubWV0YS5qcwovLyBAZG93bmxvYWRVUkwgICAgIGh0dHBzOi8vb3BlbnVzZXJqcy5vcmcvaW5zdGFsbC9uYXZjaGFuZGFyL1dpa2lwZWRpYV9BdXRvX0RhcmtfTW9kZS51c2VyLmpzCi8vIEBsaWNlbnNlICAgICAgICAgTUlUCi8vIEBpY29uICAgICAgICAgICAgaHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3N0YXRpYy9mYXZpY29uL3dpa2lwZWRpYS5pY28KLy8gQGdyYW50ICAgICAgICAgICBHTV9hZGRTdHlsZQovLyA9PS9Vc2VyU2NyaXB0PT0KCnZhciBjc3MgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzdHlsZScpOwpjc3MudHlwZSA9ICJ0ZXh0L2NzcyI7CmNzcy5pbm5lckhUTUwgPSAiaHRtbHtjb2xvcjojMjQyOTJlIWltcG9ydGFudH1pbnB1dCxjZW50ZXJ7YmFja2dyb3VuZDojMjQyOTJlO2JhY2tncm91bmQtaW1hZ2U6LXdlYmtpdC1saW5lYXItZ3JhZGllbnQodG9wLCMwMDAwMDAwMCxyZ2JhKDAsMCwwLC4wMikpfVwKLmhlYWRlcnt3aWR0aDoxMDAlO2JhY2tncm91bmQ6IzI0MjkyZTtoZWlnaHQ6NDZweH1uYXYsYm9keXtjb2xvcjpncmV5IWltcG9ydGFudDtiYWNrZ3JvdW5kLWNvbG9yOiMyNDI5MmUhaW1wb3J0YW50fVwKaDEsaDIsaDMsaDQsaDUsaDYsZGl2e2NvbG9yOmdyZXkhaW1wb3J0YW50O2JhY2tncm91bmQtY29sb3I6IzI0MjkyZSFpbXBvcnRhbnR9dWwsbGl7Y29sb3I6d2hpdGUhaW1wb3J0YW50O2JhY2tncm91bmQtY29sb3I6IzI0MjkyZSFpbXBvcnRhbnR9XApsaSBhe2JhY2tncm91bmQtY29sb3I6IzI0MjkyZSFpbXBvcnRhbnR9dHIsdGQsdGgsY2FwdGlvbntjb2xvcjp3aGl0ZSFpbXBvcnRhbnQ7YmFja2dyb3VuZC1jb2xvcjojMjQyOTJlIWltcG9ydGFudH1cCmEsYntjb2xvcjojN2Q5YmNkIWltcG9ydGFudDtiYWNrZ3JvdW5kLWNvbG9yOiMyNDI5MmUhaW1wb3J0YW50fWRsLGR0LGRke2NvbG9yOlNub3chaW1wb3J0YW50O2JhY2tncm91bmQtY29sb3I6IzI0MjkyZSFpbXBvcnRhbnR9XAp0ZXh0YXJlYXtjb2xvcjpTbm93IWltcG9ydGFudDtiYWNrZ3JvdW5kLWNvbG9yOiMxNzE3MTghaW1wb3J0YW50fWRpdixzcGFuLHByZXtjb2xvcjpzbm93IWltcG9ydGFudDtiYWNrZ3JvdW5kOiMyNDI5MmV9XApkZXRhaWxzLGxhYmVsLHN1bW1hcnl7YmFja2dyb3VuZDojMjQyOTJlfWltZ3tiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JleX0jZmJhcntiYWNrZ3JvdW5kOiMyMzI4MmQ7Ym9yZGVyLXRvcDoxcHggc29saWQgI2U0ZTRlNDtsaW5lLWhlaWdodDo0MHB4O21pbi13aWR0aDo5ODBweH1cCnRhYmxle2JvcmRlcjoxcHggc29saWQgIzViNWM1Yztib3JkZXItc3BhY2luZzoycHg7YmFja2dyb3VuZC1jb2xvcjojMDAwYztjb2xvcjojMDAwfVwKLm13LXVpLWlucHV0e2JhY2tncm91bmQtY29sb3I6IzFmMjUyYmRlO2NvbG9yOiMwMDA7Ym9yZGVyOjFweCBzb2xpZCAjYTJhOWIxO2JvcmRlci1yYWRpdXM6MnB4O2JveC1zaGFkb3c6aW5zZXQgMCAwIDAgLjFlbSAjM2U4MWYxO2JvcmRlcjoxcHggc29saWQgIzI1Mzc5Mztib3JkZXItcmFkaXVzOjVweH1cCi5pbmZvYm94e2JvcmRlcjoxcHggc29saWQgIzg4ODtib3JkZXItc3BhY2luZzoycHg7YmFja2dyb3VuZC1jb2xvcjojMDAwMDAwYjU7Y29sb3I6IzAwMDttYXJnaW46LjVlbSAwIC41ZW0gMWVtfVwKLm9vLXVpLXRleHRJbnB1dFdpZGdldCBpbnB1dCwub28tdWktdGV4dElucHV0V2lkZ2V0IHRleHRhcmVhe2JhY2tncm91bmQtY29sb3I6IzA3MDgwOGM3O2NvbG9yOiMwMDA7Ym9yZGVyOjFweCBzb2xpZCAjYTJhOWIxfVwKI3Atc2VhcmNoIGZvcm0sI3Atc2VhcmNoIGlucHV0e21hcmdpbjouNGVtIDAgMH0jc2ltcGxlU2VhcmNoe2JhY2tncm91bmQtY29sb3I6IzI0MjkyZX0jc2ltcGxlU2VhcmNoOmhvdmVye2JvcmRlci1jb2xvcjojNzI3NzdkfVwKI3NpbXBsZVNlYXJjaCBpbnB1dHtiYWNrZ3JvdW5kLWNvbG9yOiMyNDI5MmU7Y29sb3I6IzAwMDttYXJnaW46MDtwYWRkaW5nOjA7Ym9yZGVyOjB9XAojc2ltcGxlU2VhcmNoICNzZWFyY2hJbnB1dHt3aWR0aDoxMDAlO3BhZGRpbmc6LjJlbSAwIC4yZW0gLjJlbTtmb250LXNpemU6LjgxMjVlbTtkaXJlY3Rpb246bHRyOy13ZWJraXQtYXBwZWFyYW5jZTp0ZXh0ZmllbGR9XAojc2ltcGxlU2VhcmNoICNzZWFyY2hJbnB1dDpmb2N1c3tvdXRsaW5lOjB9I3NpbXBsZVNlYXJjaCAjc2VhcmNoSW5wdXQ6Oi13ZWJraXQtaW5wdXQtcGxhY2Vob2xkZXJ7Y29sb3I6IzcyNzc3ZDtvcGFjaXR5OjF9XAojc2ltcGxlU2VhcmNoICNzZWFyY2hJbnB1dDotbXMtaW5wdXQtcGxhY2Vob2xkZXJ7Y29sb3I6IzcyNzc3ZDtvcGFjaXR5OjF9I3NpbXBsZVNlYXJjaCAjc2VhcmNoSW5wdXQ6Oi1tb3otcGxhY2Vob2xkZXJ7Y29sb3I6IzcyNzc3ZDtvcGFjaXR5OjF9XAojc2ltcGxlU2VhcmNoICNzZWFyY2hJbnB1dDotbW96LXBsYWNlaG9sZGVye2NvbG9yOiM3Mjc3N2Q7b3BhY2l0eToxfSNzaW1wbGVTZWFyY2ggI3NlYXJjaElucHV0OjpwbGFjZWhvbGRlcntjb2xvcjojNzI3NzdkO29wYWNpdHk6MX1cCiNzaW1wbGVTZWFyY2ggI3NlYXJjaElucHV0Ojotd2Via2l0LXNlYXJjaC1kZWNvcmF0aW9uLCNzaW1wbGVTZWFyY2ggI3NlYXJjaElucHV0Ojotd2Via2l0LXNlYXJjaC1jYW5jZWwtYnV0dG9uLCNzaW1wbGVTZWFyY2ggI3NlYXJjaElucHV0Ojotd2Via2l0LXNlYXJjaC1yZXN1bHRzLWJ1dHRvbiwjc2ltcGxlU2VhcmNoICNzZWFyY2hJbnB1dDo6LXdlYmtpdC1zZWFyY2gtcmVzdWx0cy1kZWNvcmF0aW9uey13ZWJraXQtYXBwZWFyYW5jZTp0ZXh0ZmllbGR9XAojc2ltcGxlU2VhcmNoICNzZWFyY2hCdXR0b24sI3NpbXBsZVNlYXJjaCAjbXctc2VhcmNoQnV0dG9ue3Bvc2l0aW9uOmFic29sdXRlO3RvcDowO3JpZ2h0OjA7d2lkdGg6MS42NWVtO2hlaWdodDoxMDAlO2N1cnNvcjpwb2ludGVyO3RleHQtaW5kZW50Oi05OTk5OXB4O2RpcmVjdGlvbjpsdHI7d2hpdGUtc3BhY2U6bm93cmFwO292ZXJmbG93OmhpZGRlbn1cCiI7Cgp2YXIgZCA9IG5ldyBEYXRlKCk7IC8vIGZvciBub3cKdmFyIHRpbWUgPSBkLmdldEhvdXJzKCk7CmlmICh0aW1lID49IDIwIHx8IHRpbWUgPCA4KSB7CiAgLy8gUnVuIHRoaXMgb25seSBAIG5pZ2h0CiAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ2hlYWQnKVswXS5hcHBlbmRDaGlsZChjc3MpOwogIGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJib2R5IilbMF0uc2V0QXR0cmlidXRlKCJiZ2NvbG9yIiwgIiMyNDI5MmUiKTsKICBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiYm9keSIpWzBdLnNldEF0dHJpYnV0ZSgidGV4dCIsICJTbm93Iik7CiAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoImJvZHkiKVswXS5zZXRBdHRyaWJ1dGUoImFsaW5rIiwgIiM0Mjg1ZjQiKTsKICBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiYm9keSIpWzBdLnNldEF0dHJpYnV0ZSgibGluayIsICIjNDI4NWY0Iik7CiAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoImJvZHkiKVswXS5zZXRBdHRyaWJ1dGUoInZsaW5rIiwgIlB1cnBsZSIpOwogIGRvY3VtZW50LmJvZHkuc3R5bGUuYmFja2dyb3VuZCA9ICIjMjQyOTJlIjsKfQo="
+    }
+  ]
 }
