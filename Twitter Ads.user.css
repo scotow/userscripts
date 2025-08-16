@@ -1,0 +1,26 @@
+`/* ==UserStyle==
+@name        Twitter Ads
+@description This is your new file, start writing code
+@match       https://twitter.com/*
+==/UserStyle== */
+
+/*[data-testid="cellInnerDiv"]:has(svg + [dir="auto"]) {
+  display: none !important;
+}
+
+:has(meta[property="og:site_name"][content="Twitter"])[data-testid="cellInnerDiv"]:has(svg + [dir="auto"]) {
+  display: none !important;
+}
+
+:has(meta[property="og:site_name"][content="Twitter"])[aria-label="Timeline: Trending now"] {
+  display: none !important;
+}
+*/
+
+div.css-1dbjc4n[data-testid="placementTracking"]:not(:has(> [data-testid="videoPlayer"])) {
+  display: none !important;
+}
+
+[aria-label="Get Verified"] {
+  display: none !important;
+}

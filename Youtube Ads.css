@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name        Youtube Ads
+@description This is your new file, start writing code
+@match       https://www.youtube.com/*
+==/UserStyle== */
+
+.ytp-ad-image-overlay {
+    display: none !important;
+}
