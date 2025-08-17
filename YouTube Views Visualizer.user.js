@@ -15,7 +15,7 @@
     function updateElm() {
         disconnect();
 
-        const elms = document.querySelectorAll("span.style-scope.ytd-grid-video-renderer:first-of-type,span.style-scope.ytd-video-meta-block:first-of-type");
+        const elms = document.querySelectorAll(".yt-lockup-view-model-wiz__metadata .yt-lockup-metadata-view-model-wiz__text-container .yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(2) .yt-content-metadata-view-model-wiz__metadata-text:nth-of-type(1)");
         const map = new Map();
         let max = -1;
         let min = Infinity;
